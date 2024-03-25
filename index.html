@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="frame-container">
+        <div class="frame-frame">
+          <div class="frame-divnext">
+            <div class="frame-heading3">
+              <span class="frame-text">
+                <span>Para quem é essa ferramenta?</span>
+              </span>
+            </div>
+            <div class="frame-pelementorheadingtitle">
+              <span class="frame-text002">
+                <span>Você se vê enfrentando algum desses problemas?</span>
+              </span>
+            </div>
+            <div class="frame-divelementorelement">
+              <div class="frame-divelementorimageboxwrapper">
+                <div class="frame-figureimage">
+                  <div class="frame-imagefill">
+                    <div class="frame-image">
+                      <img
+                        alt="Vector132"
+                        src="public/external/vector132-ob5w.svg"
+                        class="frame-vector"
+                      />
+                      <img
+                        alt="pngtreestudentglyphblackiconpngimage69114511231"
+                        src="public/external/pngtreestudentglyphblackiconpngimage69114511231-ceca-300w.png"
+                        class="frame-pngtreestudentglyphblackiconpngimage6911451"
+                      />
+                      <img
+                        alt="pngtreestudentglyphblackiconpngimage69114521232"
+                        src="public/external/pngtreestudentglyphblackiconpngimage69114521232-6zs-200h.png"
+                        class="frame-pngtreestudentglyphblackiconpngimage6911452"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span class="frame-text004">
+                  <span>Estudantes em geral</span>
+                </span>
+                <span class="frame-text006">
+                  <span>(escola, vestibular, faculdade, concursos...)</span>
+                  <br />
+                  <span></span>
+                </span>
+              </div>
+              <div class="frame-divelementorimageboxwrapper1">
+                <div class="frame-figureimage1">
+                  <div class="frame-imagefill1">
+                    <div class="frame-image1">
+                      <img
+                        alt="Vector139"
+                        src="public/external/vector139-2h7c.svg"
+                        class="frame-vector1"
+                      />
+                      <img
+                        alt="vectorsignofpeopleicon11234"
+                        src="public/external/vectorsignofpeopleicon11234-7nf-200h.png"
+                        class="frame-vectorsignofpeopleicon1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span class="frame-text010">
+                  <span>Pessoas que sentem ansiedade</span>
+                </span>
+              </div>
+              <div class="frame-divelementorimageboxwrapper2">
+                <div class="frame-figureimage2">
+                  <div class="frame-imagefill2">
+                    <div class="frame-image2">
+                      <img
+                        alt="Vector146"
+                        src="public/external/vector146-7br.svg"
+                        class="frame-vector2"
+                      />
+                      <img
+                        alt="IMAGE88377711235"
+                        src="public/external/image88377711235-dxkc-200w.png"
+                        class="frame-image8837771"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span class="frame-text012">
+                  <span>Falta de confiança e direção</span>
+                </span>
+                <span class="frame-text014">
+                  <span>
+                    Pessoas que não sabem por onde começar a organizar suas
+                    demandas&nbsp;(no planner existe a hierarquização de
+                    tarefas)
+                  </span>
+                </span>
+              </div>
+            </div>
+            <span class="frame-text016">
+              <span>
+                Pessoas que sentem ansiedade&nbsp;pelo excesso de informação e
+                desorganização própria.
+              </span>
+              <br />
+              <span></span>
+            </span>
+            <div class="frame-divelementorelement1">
+              <span class="frame-text020">
+                <span class="frame-text021">Então, esta estratégia foi</span>
+                <span class="frame-text022">feita para você.</span>
+              </span>
+            </div>
+          </div>
+          <span class="frame-text023">
+            <span>Ao que você terá acesso?</span>
+          </span>
+          <span class="frame-text025">
+            <span>
+              Todos os módulos foram organizados em um passo a passo de fácil
+              entendimento.
+            </span>
+          </span>
+          <div class="frame-figure14150x150webp">
+            <img
+              alt="ilustracaoemvetorconceitoabstratodetrabalhodequali1237"
+              src="public/external/ilustracaoemvetorconceitoabstratodetrabalhodequali1237-agzn-300w.png"
+              class="frame-ilustracaoemvetorconceitoabstratodetrabalhodequali"
+            />
+          </div>
+          <span class="frame-text027"><span>Controle de hábitos</span></span>
+          <span class="frame-text029">
+            <span>CheckList para acompanhar seus hábitos e sua evolução.</span>
+          </span>
+          <div class="frame-figure24150x150webp">
+            <img
+              alt="Capturadetela2024032519373311238"
+              src="public/external/capturadetela2024032519373311238-8cw-200h.png"
+              class="frame-capturadetela202403251937331"
+            />
+          </div>
+          <span class="frame-text031"><span>Organização financeira</span></span>
+          <span class="frame-text033">
+            <span>
+              Controle de gastos, gestor de metas, controle de contas bancárias,
+              etc.
+            </span>
+          </span>
+          <div class="frame-figure34150x150webp">
+            <img
+              alt="Capturadetela2024032519420211239"
+              src="public/external/capturadetela2024032519420211239-6pvm-200h.png"
+              class="frame-capturadetela202403251942021"
+            />
+          </div>
+          <span class="frame-text035"><span>3. Modo foco</span></span>
+          <span class="frame-text037">
+            <span>
+              Músicas selecionadas para concentração, espaço para anotações,
+              mapa de visualização de objetivos, CheckList de preparo mental e
+              muitas outras coisas.
+            </span>
+          </span>
+          <div class="frame-figure42150x150webp"></div>
+          <img
+            alt="Capturadetela2024032519451511240"
+            src="public/external/capturadetela2024032519451511240-ssfq-200h.png"
+            class="frame-capturadetela202403251945151"
+          />
+          <span class="frame-text039"><span>Controle de estudos</span></span>
+          <span class="frame-text041">
+            <span>
+              espaço para organizar suas leituras, fazer anotações e timer
+              pomodoro.
+            </span>
+          </span>
+          <button class="frame-linkbutton">
+            <span class="frame-text043">
+              <span>Quero meu acesso agora</span>
+            </span>
+          </button>
+          <div class="frame-divelementorelement2">
+            <div class="frame-frame1"></div>
+          </div>
+          <div class="frame-diveconinner">
+            <span class="frame-text045"><span>Oque está incluso?</span></span>
+            <div class="frame-divelementorelement3">
+              <div class="frame-divelementorwidgetcontainer">
+                <div class="frame-spanelementoricon">
+                  <img
+                    alt="SVG1119"
+                    src="public/external/svg1119-7mxk.svg"
+                    class="frame-svg"
+                  />
+                </div>
+                <span class="frame-text047">
+                  <span>Comunidade no Discord</span>
+                </span>
+                <span class="frame-text049">
+                  <span>Espaço exclusivo para membros.</span>
+                </span>
+              </div>
+              <div class="frame-divelementorwidgetcontainer1">
+                <div class="frame-spanelementoricon1">
+                  <img
+                    alt="SVG1125"
+                    src="public/external/svg1125-64nk.svg"
+                    class="frame-svg1"
+                  />
+                </div>
+                <span class="frame-text051">
+                  <span>Template do Notion</span>
+                </span>
+                <span class="frame-text053"><span>Planner completo</span></span>
+              </div>
+              <div class="frame-divelementorwidgetcontainer2">
+                <div class="frame-spanelementoricon2">
+                  <img
+                    alt="SVG1131"
+                    src="public/external/svg1131-mkbk.svg"
+                    class="frame-svg2"
+                  />
+                </div>
+                <span class="frame-text055">
+                  <span>Garantia de 7 dias</span>
+                </span>
+                <span class="frame-text057">
+                  <span>Peça reembolso sem precisar explicar motivos</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <span class="frame-text059">
+            <span>Exclusivo para primeiros membros</span>
+          </span>
+          <span class="frame-text061">
+            <span>
+              No Planner, tudo é altamente personalizável e de fácil utilização.
+              Sincronização automática entre seu computador, celular e tablet
+              (IOS, ANDROID)
+            </span>
+          </span>
+          <div class="frame-divelementorelement4">
+            <div class="frame-divelementorwidgetcontainer3">
+              <div class="frame-divelementorpricetableheader">
+                <span class="frame-text063"><span>Plano Completo</span></span>
+                <span class="frame-text065">
+                  <span>Valor exclusivo por tempo limitado.</span>
+                </span>
+              </div>
+              <div class="frame-divelementorpricetableprice">
+                <span class="frame-text067"><span>R$</span></span>
+                <span class="frame-text069"><span>29,99</span></span>
+                <div class="frame-divelementorpricetableafterprice"></div>
+              </div>
+              <div class="frame-list">
+                <div class="frame-frame3">
+                  <span class="frame-text071">
+                    <span>Suporte 24 horas para duvidas</span>
+                  </span>
+                </div>
+                <img
+                  alt="Item1160"
+                  src="public/external/item1160-u6m-200h.png"
+                  class="frame-item"
+                />
+                <span class="frame-text073">
+                  <span>Comunidade no Discord</span>
+                </span>
+                <img
+                  alt="Item1162"
+                  src="public/external/item1162-2t3-200h.png"
+                  class="frame-item1"
+                />
+                <span class="frame-text075">
+                  <span>Template do Notion</span>
+                </span>
+                <img
+                  alt="Item1164"
+                  src="public/external/item1164-xbrf-200h.png"
+                  class="frame-item2"
+                />
+                <button class="frame-linkbutton1">
+                  <span class="frame-text077">
+                    <span>Faça parte agora</span>
+                  </span>
+                </button>
+              </div>
+              <div class="frame-divelementorpricetablefooter"></div>
+            </div>
+            <div class="frame-divelementorpricetableribbon">
+              <div class="frame-divelementorpricetableribboninner">
+                <span class="frame-text079"><span>Popular</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="frame-divelementorelement5">
+            <div class="frame-heading31">
+              <span class="frame-text081">
+                <span>Perguntas frequentes</span>
+              </span>
+            </div>
+            <div class="frame-divelementorelement6">
+              <div class="frame-divelementorwidgetcontainer4">
+                <button class="frame-button">
+                  <span class="frame-text083">
+                    <span>O Notion é gratuito?</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>
+                      Sim, o Notion é totalmente gratuito, basta criar uma conta
+                      pra acessá-lo.
+                    </span>
+                  </span>
+                </button>
+                <button class="frame-button1">
+                  <span class="frame-text089">
+                    <span>Consigo usar o Notion pelo celular?</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>
+                      Sim! O Notion é um aplicativo com sincronização automática
+                      com seu navegador, dekstop e aplicativo.
+                    </span>
+                  </span>
+                </button>
+                <button class="frame-button2"></button>
+                <span class="frame-text095">
+                  <span>Como irei receber o planner?</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    O seu planner será entregue imediatamente via e-mail
+                    inserido no momento da compra.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="frame-frame2">
+            <span class="frame-text101">
+              <span>
+                O&nbsp;“Helios:&nbsp;Planner“ irá te ajudar a organizar todas as
+                áreas da sua vida
+              </span>
+            </span>
+            <span class="frame-text103">
+              <span>A ferramenta perfeita para o seu dia a dia</span>
+            </span>
+            <img
+              alt="ddd11225"
+              src="public/external/ddd11225-tby-600h.png"
+              class="frame-ddd1"
+            />
+            <span class="frame-text105">
+              <span>
+                É a ferramenta ideal para quem quer voltar a ter o controle da
+                própria vida e desfrutar de tudo aquilo que ela pode oferecer.
+              </span>
+            </span>
+            <button class="frame-linkbutton2">
+              <span class="frame-text107">
+                <span>Quero meu acesso agora</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
